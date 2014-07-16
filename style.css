@@ -2,6 +2,10 @@ body {
 	background: lightgrey;
 
 }
+img {
+	height: 100px;
+	width: 100px;
+}
 header {
 	margin: auto;
 	text-align: center;
@@ -14,47 +18,30 @@ div {
 
 }
 h1 {
-	padding:100px;
+	padding:50px;
 }
 
-	
-}
 .toprow .middlerow .bottomrow {
 	border: black;
 	border-style: solid;
 	height: 150px;
-	width: 500px;
+	width: 700px;
 	display: inline-block;
 	text-align: center;
-	margin: 0px;
+	margin: 5px;
 
 }
 
-#trleft, #trmiddle, #trright {
+#trleft, #trmiddle, #trright, #mrleft, #mrmiddle, #mrright, #brleft, #brmiddle, #brright {
 	display: inline-block;
 	width: 30%;
-	margin: 0px;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
-}
-	.toprow #trright {
-		border-left: 2px solid black;
-		border-right: none;
+	margin: 3px;
+	border: solid black;
+	text-align: center;
 }
 
-#mrleft, #mrmiddle, #mrright {
-	display: inline-block;
-	width: 30%;
-	margin: 0px;
-	border: black;
-	border-style: solid;
-}
 
-#brleft, #brmiddle, #brright {
-	display: inline-block;
-	width: 30%;
-	
-	margin: 0px;
-	border: black;
-	border-style: solid;
-}
+
+
+
+ 
